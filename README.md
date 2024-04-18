@@ -26,7 +26,7 @@ sudo apt-get update
 sudo apt-get install gnucobol4
 ```
 
-## Compiler program GNU/Linux
+## Compile programs in GNU/Linux
 
 To compile the program in the `/bin` folder
 
@@ -36,7 +36,7 @@ To compile the program in the `/bin` folder
 mkdir bin
 ```
 
-- Compile programs
+- Compile programs one by one
 
 ```bash
 cobc -x -o bin/SalesDataProcessor src/SalesDataProcessor.cbl
