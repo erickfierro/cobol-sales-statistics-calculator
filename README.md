@@ -47,7 +47,3 @@ cobc -x -o bin/NameProgram src/NameProgram.cbl
 ```bash
 bin/SalesStatisticsCalculator
 ```
-
-## Authors
-
-- [@erickfierro](https://github.com/erickfierro)
