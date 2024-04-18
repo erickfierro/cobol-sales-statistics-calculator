@@ -14,13 +14,13 @@ Download the program [OpenCobolIDE](https://launchpad.net/cobcide/+download) ava
 
 To install only the compiler on `GNU/Linux`
 
-Downloads and builds a local cache of the list of available packages
+- Downloads and builds a local cache of the list of available packages
 
 ```bash
 sudo apt-get update
 ```
 
-Install gnucobol4
+- Install gnucobol4
 
 ```bash
 sudo apt-get install gnucobol4
@@ -36,13 +36,13 @@ To compile the program in the `/bin` folder
 mkdir bin
 ```
 
-Compile program
+- Compile program
 
 ```bash
 cobc -x -o bin/NameProgram src/NameProgram.cbl
 ```
 
-To run main program execute
+- To run main program execute
 
 ```bash
 bin/SalesStatisticsCalculator
