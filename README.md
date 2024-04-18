@@ -14,11 +14,8 @@ Download the program [OpenCobolIDE](https://launchpad.net/cobcide/+download) ava
 
 To install only the compiler on `GNU/Linux`
 
-- Downloads and builds a local cache of the list of available packages
-
-```bash
-sudo apt-get update
-```
+> [!NOTE]
+> If when trying to install the compiler it generates the error `Unable to locate package gnucobol4`, run sudo apt-get update.
 
 - Install gnucobol4
 
