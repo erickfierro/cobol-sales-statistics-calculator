@@ -47,3 +47,6 @@ cobc -x -o bin/NameProgram src/NameProgram.cbl
 ```bash
 bin/SalesStatisticsCalculator
 ```
+## Contributions
+
+!Contributions are welcome! If you have ideas to improve this project or find any errors, do not hesitate to open an issue or send a pull request
