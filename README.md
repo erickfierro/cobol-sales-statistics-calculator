@@ -48,6 +48,12 @@ cobc -x -o bin/SalesStatisticsCalculator src/SalesStatisticsCalculator.cbl
 cobc -x -o bin/ResultsPrinter src/ResultsPrinter.cbl
 ```
 
+or run the following bash file
+
+```bash
+./compile.sh
+```
+
 - To run main program execute
 
 ```bash
