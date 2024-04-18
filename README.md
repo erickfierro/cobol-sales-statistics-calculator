@@ -36,16 +36,22 @@ To compile the program in the `/bin` folder
 mkdir bin
 ```
 
-- Compile program
+- Compile programs
 
 ```bash
-cobc -x -o bin/NameProgram src/NameProgram.cbl
+cobc -x -o bin/SalesDataProcessor src/SalesDataProcessor.cbl
+```
+```bash
+cobc -x -o bin/SalesStatisticsCalculator src/SalesStatisticsCalculator.cbl
+```
+```bash
+cobc -x -o bin/ResultsPrinter src/ResultsPrinter.cbl
 ```
 
 - To run main program execute
 
 ```bash
-bin/SalesStatisticsCalculator
+bin/SalesDataProcessor
 ```
 ## Contributions
 
