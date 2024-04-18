@@ -45,7 +45,7 @@ cobc -x -o bin/NameProgram src/NameProgram.cbl
 To run main program execute
 
 ```bash
-bin/MAIN-PROGRAM
+bin/SalesStatisticsCalculator
 ```
 
 ## Authors
