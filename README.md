@@ -30,7 +30,7 @@ sudo apt-get install gnucobol4
 
 To compile the program in the `/bin` folder
 
-Create folder /bin
+- Create folder /bin
 
 ```bash
 mkdir bin
