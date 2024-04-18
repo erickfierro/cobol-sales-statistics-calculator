@@ -1,0 +1,2 @@
+# Ignore files generated in bin folder when compiling
+/bin
