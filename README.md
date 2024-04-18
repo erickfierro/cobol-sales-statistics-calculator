@@ -61,4 +61,4 @@ bin/SalesDataProcessor
 ```
 ## Contributions
 
-!Contributions are welcome! If you have ideas to improve this project or find any errors, do not hesitate to open an issue or send a pull request
+Contributions are welcome! If you have ideas to improve this project or find any errors, do not hesitate to open an [issue](https://github.com/erickfierro/cobol-sales-statistics-calculator/issues) or send a [pull request](https://github.com/erickfierro/cobol-sales-statistics-calculator/pulls)
