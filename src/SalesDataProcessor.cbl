@@ -35,12 +35,15 @@
       *----------------------------------------------------------------*
        WORKING-STORAGE SECTION.
       *----------------------------------------------------------------*
-      *                           VARIABLES                            *
+      *                              COPY                              *
+      *----------------------------------------------------------------*
+       COPY GLOBALDATA.
+      *----------------------------------------------------------------*
+      *                            VARIABLES                           *
       *----------------------------------------------------------------*
        77 FS-STATUS                        PIC X(02).
-
-       LINKAGE SECTION.
-       01 DFHCOMMAREA                      PIC X(2534).
+       01 WS-VARIABLES-AUXILIARES.
+           05 WS-AUX-CONTADOR              PIC 9(02) VALUE 0.
       
       *----------------------------------------------------------------*
       *               P R O C E D U R E   D I V I S I O N              *
@@ -80,10 +83,21 @@
                READ SALES-DATA-FILE INTO SALES-DATA-RECORD
                    AT END 
                        MOVE 'Y'        TO END-OF-FILE
+                   NOT AT END
+                       PERFORM 1300-MOVER-DATOS
                 END-READ
            END-PERFORM
            .
       
+      *----------------------------------------------------------------*
+      * 1300-MOVER-DATOS                                               *
+      *----------------------------------------------------------------*
+       1300-MOVER-DATOS.
+           ADD 1 TO WS-AUX-CONTADOR
+           MOVE PRODUCT-NAME        TO GD-PRODUCT-NAME(WS-AUX-CONTADOR)
+           MOVE UNIT-PRICE          TO GD-UNIT-PRICE(WS-AUX-CONTADOR)
+           MOVE QUANTITY-SOLD       TO GD-QUANTITY-SOLD(WS-AUX-CONTADOR)
+           .
       *----------------------------------------------------------------*
       * 2000-PROCESO-PROGRAMA                                          *
       *----------------------------------------------------------------*
