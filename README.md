@@ -38,8 +38,13 @@ mkdir bin
 - Compile programs one by one
 
 ```bash
+# Compile SalesDataProcessor
 cobc -x -o bin/SalesDataProcessor src/SalesDataProcessor.cbl
+
+# Compile SalesStatisticsCalculator
 cobc -x -o bin/SalesStatisticsCalculator src/SalesStatisticsCalculator.cbl
+
+# Compile ResultsPrinter
 cobc -x -o bin/ResultsPrinter src/ResultsPrinter.cbl
 ```
 
