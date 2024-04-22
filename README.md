@@ -46,7 +46,7 @@ cobc -x -o bin/ResultsPrinter src/ResultsPrinter.cbl
 or run the following bash file
 
 ```bash
-# Compile all the files in `/src` folder
+# Compile all the files in `/bin` folder
 ./compile.sh
 ```
 
