@@ -14,17 +14,16 @@ Download the program [OpenCobolIDE](https://launchpad.net/cobcide/+download) ava
 
 To install only the compiler on `GNU/Linux`
 
+```bash
+# Install gnucobol4
+sudo apt-get install gnucobol4
+```
+
 > [!NOTE]
 > If when trying to install the compiler it generates the error `Unable to locate package gnucobol4`, execute
 > ```bash
 > sudo apt-get update
 > ```
-
-- Install gnucobol4
-
-```bash
-sudo apt-get install gnucobol4
-```
 
 ## Compile programs in GNU/Linux
 
@@ -40,17 +39,14 @@ mkdir bin
 
 ```bash
 cobc -x -o bin/SalesDataProcessor src/SalesDataProcessor.cbl
-```
-```bash
 cobc -x -o bin/SalesStatisticsCalculator src/SalesStatisticsCalculator.cbl
-```
-```bash
 cobc -x -o bin/ResultsPrinter src/ResultsPrinter.cbl
 ```
 
 or run the following bash file
 
 ```bash
+# Compile all the files in `/src` folder
 ./compile.sh
 ```
 
