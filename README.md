@@ -29,35 +29,22 @@ sudo apt-get install gnucobol4
 
 To compile the program in the `/bin` folder
 
-- Create folder /bin
-
 ```bash
+# Create folder /bin
 mkdir bin
 ```
 
-- Compile programs one by one
+- Compile program
 
 ```bash
 # Compile SalesDataProcessor
 cobc -x -o bin/SalesDataProcessor src/SalesDataProcessor.cbl
-
-# Compile SalesStatisticsCalculator
-cobc -x -o bin/SalesStatisticsCalculator src/SalesStatisticsCalculator.cbl
-
-# Compile ResultsPrinter
-cobc -x -o bin/ResultsPrinter src/ResultsPrinter.cbl
-```
-
-or run the following bash file
-
-```bash
-# Compile all the files in `/bin` folder
-./compile.sh
 ```
 
 - To run main program execute
 
 ```bash
+# Run SalesDataProcessor
 bin/SalesDataProcessor
 ```
 ## Contributions
