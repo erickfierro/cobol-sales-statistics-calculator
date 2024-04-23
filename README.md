@@ -46,6 +46,7 @@ sudo apt-get install gnucobol4
 > ```bash
 > sudo apt-get update
 > ```
+
 ## Compile program in GNU/Linux
 
 To compile the program in the `/bin` folder
