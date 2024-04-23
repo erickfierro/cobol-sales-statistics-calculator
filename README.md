@@ -41,11 +41,11 @@ To install only the compiler on `GNU/Linux`
 sudo apt-get install gnucobol4
 ```
 
-> [!NOTE]
-> If when trying to install the compiler it generates the error `Unable to locate package gnucobol4`, execute
-> ```bash
-> sudo apt-get update
-> ```
+[!NOTE]
+If when trying to install the compiler it generates the error `Unable to locate package gnucobol4`, execute
+```bash
+sudo apt-get update
+```
 
 ## Compile program in GNU/Linux
 
