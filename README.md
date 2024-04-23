@@ -8,6 +8,28 @@ This project is a sales statistics calculator developed in `COBOL`. It provides 
 - Efficient processing of large sales data sets
 - Intuitive and easy-to-use user interface
 
+## [CSV](https://github.com/erickfierro/cobol-sales-statistics-calculator/blob/main/data.csv) File Structure
+
+### Description
+This CSV file is used to store sales data, including the product name, unit price, and quantity sold. It is part of the COBOL sales statistics calculator project.
+
+### Format
+
+The columns of the CSV file are as follows:
+- **Product Name**: Name of the product.
+- **Unit Price**: Unit price of the product in the local currency.
+- **Quantity Sold**: Number of units sold.
+
+### Example
+
+Below is an example of some rows from the CSV file:
+
+| Product Name                                              | Unit Price | Quantity Sold |
+|-----------------------------------------------------------|------------|---------------|
+| Laptop HP Pavilion 15.6"                                  | 2,400,000  | 20            |
+| Smartphone Samsung Galaxy S21                             | 3,000,000  | 15            |
+| Wireless Headphones Apple AirPods Pro                     | 937,500    | 30            |
+
 ## Compiler install
 
 Download the program [OpenCobolIDE](https://launchpad.net/cobcide/+download) available for Windows, GNU/Linux and Mac OSX.
