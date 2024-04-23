@@ -34,14 +34,14 @@ To compile the program in the `/bin` folder
 mkdir bin
 ```
 
-- Compile program
+Compile program
 
 ```bash
 # Compile SalesDataProcessor
 cobc -x -o bin/SalesDataProcessor src/SalesDataProcessor.cbl
 ```
 
-- To run main program execute
+To run main program execute
 
 ```bash
 # Run SalesDataProcessor
