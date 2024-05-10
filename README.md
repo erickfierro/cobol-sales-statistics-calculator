@@ -24,11 +24,11 @@ The columns of the CSV file are as follows:
 
 Below is an example of some rows from the CSV file:
 
-| Product Name                                              | Unit Price | Quantity Sold |
-|-----------------------------------------------------------|------------|---------------|
-| Laptop HP Pavilion 15.6"                                  | 2,400,000  | 20            |
-| Smartphone Samsung Galaxy S21                             | 3,000,000  | 15            |
-| Wireless Headphones Apple AirPods Pro                     | 937,500    | 30            |
+| Product Name                               | Unit Price | Quantity Sold |
+|--------------------------------------------|------------|---------------|
+| Laptop HP Pavilion 15.6'                   | 2,400,000  | 20            |
+| Smartphone Samsung Galaxy S21              | 3,000,000  | 15            |
+| Wireless Headphones Apple AirPods Pro      | 937,500    | 30            |
 
 ## Compiler install
 
