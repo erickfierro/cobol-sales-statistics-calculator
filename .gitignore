@@ -1,2 +1,5 @@
 # Ignore files generated in bin folder when compiling
 /bin
+
+# Ignore .venv
+src/python/.venv
