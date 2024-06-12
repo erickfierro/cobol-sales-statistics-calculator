@@ -13,7 +13,7 @@ This project is a sales statistics calculator developed in `COBOL`. It provides 
 ### Description
 This CSV file is used to store sales data, including the product name, unit price, and quantity sold. It is part of the COBOL sales statistics calculator project.
 
-<img src="https://github.com/erickfierro/cobol-sales-statistics-calculator/raw/main/assets/Diagrama_de_flujo.jpeg" alt="Diagrama de flujo" width="500"/>
+<img src="https://github.com/erickfierro/cobol-sales-statistics-calculator/raw/main/assets/Diagrama_de_flujo.jpeg" alt="Diagrama de flujo" width="800"/>
 
 ### Format
 
