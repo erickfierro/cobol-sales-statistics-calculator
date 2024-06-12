@@ -67,7 +67,7 @@ To run main program execute
 
 ```bash
 # Run SalesDataProcessor
-bin/SalesDataProcessor
+./run.sh
 ```
 ## Contributions
 
