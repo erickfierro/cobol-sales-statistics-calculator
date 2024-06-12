@@ -1,5 +1,6 @@
 # Ignore files generated in bin folder when compiling
 /bin
-
+# Ignore intermediate folder
+data/intermediate
 # Ignore .venv
 src/python/.venv
