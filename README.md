@@ -66,7 +66,7 @@ cobc -x -o bin/SalesDataProcessor src/SalesDataProcessor.cbl
 To run main program execute
 
 ```bash
-# Run SalesDataProcessor
+# Run run.sh
 ./run.sh
 ```
 ## Contributions
